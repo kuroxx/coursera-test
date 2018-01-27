@@ -1,0 +1,44 @@
+/*-------------- Base styles *--------------*/
+* {
+	font-size: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "arial", "helvetica", sans-serif;
+}
+
+h1 {
+	padding: 10px;
+}
+
+/*-------------- Header --------------*/
+a.nav-link.text-dark:hover, a.nav-link.text-dark:focus {
+	background: #727272;
+}
+
+div.dropdown-background {
+	background: lightgrey;
+}
+
+button.navbar-toggler:hover {
+	background: #727272;
+}
+
+/*-------------- Content --------------*/
+div.inner-container{	
+	border: 1px solid black;
+	display: block;
+	margin: 10px 0 10px;
+	background-color: #dddddd; /*grey*/
+}
+
+p {
+	padding: 10px; 
+}
+
+/*-------------- Mobile view --------------*/
+@media (max-width: 767px) {
+	div.inner-container{	
+		margin: 30px;
+	}
+}
